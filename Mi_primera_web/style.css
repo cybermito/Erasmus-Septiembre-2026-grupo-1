@@ -1,0 +1,66 @@
+/* Esto es un comentario en CSS */
+
+/*
+Sintaxis regla CSS:
+
+tipo_selector{
+    propiedad: valor;
+    propiedad: valor;
+}
+*/
+
+/*Tipo de selectores 
+elemento --> etiquetas html
+id --> #nombre_id
+class --> .nombre_class
+universal --> *
+*/
+
+* {
+  background-color: black;
+  color: greenyellow;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  width: 100%;
+}
+
+header figure {
+  width: 80px;
+  display: inline-block;
+}
+
+header figure img {
+  width: 100%;
+}
+
+header nav {
+  width: 70%;
+  border: 1px solid greenyellow;
+  display: inline-block;
+  text-align: right;
+}
+
+header nav ul {
+  list-style: none;
+  margin-right: 10px;
+}
+
+header nav li {
+  display: inline-block;
+  padding: 5px;
+}
+/*Fin header*/
+
+/*main*/
+main {
+}
+
+/*fin main*/
